@@ -1,0 +1,8 @@
+type Link {
+  url: String!
+  name: String!
+}
+
+type Query {
+  getLinks: [Link]
+}
